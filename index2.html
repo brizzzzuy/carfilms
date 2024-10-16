@@ -1,0 +1,227 @@
+<html>
+<head>
+    <title>Plenza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+            *{
+                font-family: "Roboto Slab", serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+
+
+                font-family: "Outfit", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: weight;
+                font-style: normal;
+
+            }
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            background: url('/images/1103467163-preview.mp4') repeat-x center center fixed;
+            background-size: contain;
+            background-size: cover;
+        }
+        .header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+        }
+        .header .logo {
+            font-size: 24px;
+        }
+        .header .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .header .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header .nav a:hover {
+            text-decoration: underline;
+        }
+        .header .lang {
+            display: flex;
+            gap: 10px;
+        }
+        .header .lang a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .header .lang a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+        }
+        .main-content h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .main-content p {
+            font-size: 18px;
+            margin: 10px 0 0;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .footer .left {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer .left .logo {
+            font-size: 24px;
+        }
+        .footer .left .contact {
+            font-size: 14px;
+        }
+        .footer .right {
+            display: flex;
+            gap: 50px;
+        }
+        .footer .right .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .footer .right .column a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer .right .column a:hover {
+            text-decoration: underline;
+        }
+        .footer .bottom {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .vertical-text {
+            position: fixed;
+            right: 0;
+            bottom: 50%;
+            transform: rotate(90deg);
+            transform-origin: right bottom;
+            font-size: 14px;
+        }
+        .social-icons {
+            position: fixed;
+            right: 13px;
+            bottom: 150px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        #myVideo {
+            filter: grayscale(100%);
+            z-index: -1;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="nav">
+                <a href="#">PRODUCTS</a>
+                <a href="#">BECOME A DEALER</a>
+                <a href="#">INSTALLATION CENTERS</a>
+                <a href="#">CONTACTS</a>
+            </div>
+            <div class="logo">Premium Protection Film</div>
+            <div class="lang">
+                <a href="./index.html">RU</a>
+                <a href="#">EN</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div>
+            <h1>PREMIUM PROTECTION FILM</h1>
+            <p>TECHNOLOGIES OF THE FUTURE</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="left">
+            <div class="logo">P</div>
+            <div class="contact">
+                Premium Paint Protection Films<br>
+                <i class="fas fa-phone"></i> +7 (909) 777-00-11<br>
+                <i class="fas fa-envelope"></i> info@plenza.com
+            </div>
+        </div>
+        <div class="right">
+            <div class="column">
+                <a href="#">PLENZA PRODUCTS</a>
+                <a href="#">Anti-gravel films</a>
+                <a href="#">Installation centers</a>
+                <a href="#">Become a dealer</a>
+            </div>
+            <div class="column">
+                <a href="#">ABOUT PLENZA</a>
+                <a href="#">About the brand</a>
+            </div>
+            <div class="column">
+                <a href="#">TRAINING AND PARTNERS</a>
+                <a href="#">Plenza School</a>
+                <a href="#">Installation centers</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="vertical-text">UP</div>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="/images/1103467163-preview.mp4" type="video/mp4">
+      </video>
+</body>
+</html>
